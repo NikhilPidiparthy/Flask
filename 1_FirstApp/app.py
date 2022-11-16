@@ -14,7 +14,7 @@ def demo1():
 def demo2():
     return "<h2>This is Demo Page 2<h2/>"
     
-@app.route('/justfun') # host:port/justfun ---> it will ridirect to the page which we mention in url_for("pageFunction")
+@app.route('/justfun') # host:port/justfun ---> it will redirect to the page which we mention in url_for("pageFunction")
 def demo_redirect():
     return redirect(url_for('home'))
 
